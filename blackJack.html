@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/blackJack.css"> 
+    <title>Black-Jack-the-Game</title>
+</head>
+<body>
+<div class="container" style="background-image: url('static/background2.jpg');">
+    <h1>BlackJack The Game</h1>
+    <h3><span id="black-jack-result">Let's Play</span></h3>
+
+    <div class="flex-black-jack-row1" style="background-image: url('static/background.jpg');"  >
+        <div id="your-box">
+            <h2>You: <span id="black-jack-yourScore">0</span></h2>
+        </div>
+        <div id="dealer-box">
+            <h2>Dealer: <span id="black-jack-dealerScore">0</span></h2>
+        </div>
+    </div>
+    
+    <div class="flex-black-jack-row2" style="background-image: url('static/background.jpg');">
+
+        <button class="btn-lg btn-primary mr-2" id="black-jack-hit-button">Hit</button>
+        <button class="btn-lg btn-warning mr-2" id="black-jack-stand-button">stand</button>
+        <button class="btn-lg btn-danger" id="black-jack-deal-button">Deal</button>
+
+    </div>
+
+    <div class="flex-black-jack-row3">
+        <table>
+            <tr>
+                <th>Won</th>
+                <th>Loss</th>
+                <th>Draw</th>
+            </tr>
+            <tr>
+                <td><span id="win-result">0</span></td>
+                <td><span id="loss-result">0</span></td>
+                <td><span id="draw-result">0</span></td>
+            </tr>
+        </table>
+    </div>
+    <h6 id="myName" style.color="black">Created by Masud K Ansari</h6>
+
+
+
+</div>
+
+
+    <script src="static/blackJack.js"> </script>
+</body>
+</html>
